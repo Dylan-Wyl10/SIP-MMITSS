@@ -1,0 +1,5 @@
+                     Note	List (Vehicle Classes): Edit '30: Bus'
+                    Error	This action cannot be performed during simulation.
+                  Warning	Vehicle input 1: MCity-east could not be finished completely (remain: 3 vehicles).	Network object type: Vehicle Input	Network object keys: 1
+                  Warning	Vehicle input 2: MCity-south could not be finished completely (remain: 5 vehicles).	Network object type: Vehicle Input	Network object keys: 2
+                  Warning	Vehicle input 4: MCity-north could not be finished completely (remain: 9 vehicles).	Network object type: Vehicle Input	Network object keys: 4
