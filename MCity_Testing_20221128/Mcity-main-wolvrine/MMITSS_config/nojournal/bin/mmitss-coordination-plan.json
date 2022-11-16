@@ -1,0 +1,125 @@
+{
+    "IntersectionName": "main-state",
+    "CoordinationPattern": [
+        {
+            "CoordinationPlanName": "Normal-Plan",
+            "CoordinationPatternNo": 1,
+            "CycleLength": 110,
+            "Offset": 59,
+            "CoordinatedPhase1": 4,
+            "CoordinatedPhase2": 8,
+            "CoordinationSplit": 20.0,
+            "Split": [
+                0,
+                35,
+                0,
+                75,
+                0,
+                35,
+                0,
+                75
+            ]
+        },
+      {
+        "CoordinationPlanName": "MF-Morning",
+        "CoordinationPatternNo": 2,
+        "CycleLength": 100,
+        "Offset": 25,
+        "CoordinatedPhase1": 4,
+        "CoordinatedPhase2": 8,
+        "CoordinationSplit": 20.0,
+        "Split": [
+          0,
+          35,
+          0,
+          65,
+          0,
+          35,
+          0,
+          65
+        ]
+      },
+      {
+        "CoordinationPlanName": "MF-Afternoon",
+        "CoordinationPatternNo": 3,
+        "CycleLength": 100,
+        "Offset": 20,
+        "CoordinatedPhase1": 4,
+        "CoordinatedPhase2": 8,
+        "CoordinationSplit": 20.0,
+        "Split": [
+          0,
+          35,
+          0,
+          65,
+          0,
+          35,
+          0,
+          65
+        ]
+      }
+    ],
+    "CoordinationDayPlan": [
+        {
+            "Days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+          "ActionPlan": [
+            {
+              "CoordinationPatternNo": 1,
+              "CoordinationStartTime_Hour": 0,
+              "CoordinationStartTime_Minute": 0,
+              "CoordinationEndTime_Hour": 6,
+              "CoordinationEndTime_Minute": 59
+            },
+            {
+              "CoordinationPatternNo": 2,
+              "CoordinationStartTime_Hour": 7,
+              "CoordinationStartTime_Minute": 0,
+              "CoordinationEndTime_Hour": 9,
+              "CoordinationEndTime_Minute": 0
+            },
+            {
+              "CoordinationPatternNo": 1,
+              "CoordinationStartTime_Hour": 9,
+              "CoordinationStartTime_Minute": 1,
+              "CoordinationEndTime_Hour": 14,
+              "CoordinationEndTime_Minute": 59
+            },
+            {
+              "CoordinationPatternNo": 3,
+              "CoordinationStartTime_Hour": 15,
+              "CoordinationStartTime_Minute": 0,
+              "CoordinationEndTime_Hour": 18,
+              "CoordinationEndTime_Minute": 0
+            },
+            {
+              "CoordinationPatternNo": 1,
+              "CoordinationStartTime_Hour": 18,
+              "CoordinationStartTime_Minute": 1,
+              "CoordinationEndTime_Hour": 23,
+              "CoordinationEndTime_Minute": 59
+            }
+          ]
+        },
+        {
+            "Days": [
+                "Saturday",
+                "Sunday"
+            ],
+            "ActionPlan": [
+                {
+                    "CoordinationPatternNo": 1,
+                    "CoordinationStartTime_Hour": 0,
+                    "CoordinationStartTime_Minute": 1,
+                    "CoordinationEndTime_Hour": 23,
+                    "CoordinationEndTime_Minute": 59
+                }
+            ]
+        }
+    ]
+}
