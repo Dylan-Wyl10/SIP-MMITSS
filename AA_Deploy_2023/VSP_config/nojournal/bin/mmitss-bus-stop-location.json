@@ -1,0 +1,35 @@
+{
+    "NoOfBusStop": 3,
+    "BusStopInformation": [
+        {
+            "IntersectionName": "Speedway-Mountain",
+            "IntersectionID": 26379,
+            "TravelDirection": "EastBound",
+            "ApproachNo": 5,
+            "Latitude_DecimalDegree": 32.235896,
+            "Longitude_DecimalDegree": -110.954834,
+            "Elevation_Meter": 742,
+            "Heading_Degree": 90.0
+        },
+        {
+            "IntersectionName": "Speedway-Mountain",
+            "IntersectionID": 26379,
+            "TravelDirection": "WestBound",
+            "ApproachNo": 1,
+            "Latitude_DecimalDegree":  32.236094,
+            "Longitude_DecimalDegree": -110.951004,
+            "Elevation_Meter": 740.158,
+            "Heading_Degree": 269.45    
+        },
+        {
+            "IntersectionName": "Speedway-Cherry",
+            "IntersectionID": 26593,
+            "TravelDirection": "WestBound",
+            "ApproachNo": 1,
+            "Latitude_DecimalDegree": 32.236167,
+            "Longitude_DecimalDegree": -110.945391,
+            "Elevation_Meter": 750,
+            "Heading_Degree":270.0
+        }      
+    ]
+}

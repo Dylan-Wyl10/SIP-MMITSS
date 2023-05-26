@@ -91,7 +91,7 @@
 		"IpAddress": "10.12.6.5",
 		"NtcipPort": 501,
 		"TimingPlanUpdateInterval_sec": 600,
-		"NtcipBackupTime_sec": 300,
+		"NtcipBackupTime_sec": 2,
 		"Vendor": "standardmib",
 		"TimingPlanMib": "/nojournal/bin/StandardMib_Siemens.py",
 		"InactiveVehPhases": [],
