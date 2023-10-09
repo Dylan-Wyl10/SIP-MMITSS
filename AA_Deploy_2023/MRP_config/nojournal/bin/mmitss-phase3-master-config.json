@@ -54,11 +54,11 @@
 		"PeerToPeerPriority": 20026
 	},
 	"psid": {
-		"map": "8001",
+		"map": "e0000017",
 		"spat": "8002",
 		"rsm": "8003",
-		"srm": "8004",
-		"ssm": "8005",
+		"srm": "e0000016",
+		"ssm": "e0000015",
 		"bsm": "20"
 	},
 	"msgId": {
@@ -72,26 +72,26 @@
 		"bsm": "0014"
 	},
 	"TxChannel": {
-		"map": 180,
-		"spat": 180,
-		"rsm": 180,
-		"srm": 180,
-		"ssm": 180,
-		"bsm": 180
+		"map": 183,
+		"spat": 183,
+		"rsm": 183,
+		"srm": 183,
+		"ssm": 183,
+		"bsm": 183
 	},
 	"TxMode": {
 		"map": "CONT",
 		"spat": "CONT",
 		"rsm": "CONT",
-		"srm": "ALT",
-		"ssm": "ALT",
+		"srm": "CONT",
+		"ssm": "CONT",
 		"bsm": "CONT"
 	},
 	"SignalController": {
 		"IpAddress": "10.12.6.5",
 		"NtcipPort": 501,
 		"TimingPlanUpdateInterval_sec": 600,
-		"NtcipBackupTime_sec": 2,
+		"NtcipBackupTime_sec": 300,
 		"Vendor": "standardmib",
 		"TimingPlanMib": "/nojournal/bin/StandardMib_Siemens.py",
 		"InactiveVehPhases": [],

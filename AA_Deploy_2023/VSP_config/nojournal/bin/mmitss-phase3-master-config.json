@@ -53,7 +53,8 @@
 		"MapEngine": 20024,
 		"LightSirenStatusManager": 20025,
 		"PeerToPeerPriority": 20026,
-		"TimePhaseDiagramTool": 20027
+		"TimePhaseDiagramTool": 20027,
+		"MessageDistributor": 30001
 	},
 	"psid": {
 		"map": "E0000017",

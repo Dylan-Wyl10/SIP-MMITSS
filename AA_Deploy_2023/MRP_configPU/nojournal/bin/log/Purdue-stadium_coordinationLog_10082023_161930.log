@@ -1,0 +1,47 @@
+[1696796370.9832] Open Coordination log file for Purdue-stadium
+
+[1696796370.9836] Active Coordination Parameter is following:
+
+[1696796370.9836] {'CoordinationPlanName': 'AM-Plan', 'CoordinationPatternNo': 1, 'CycleLength': 100, 'Offset': 48, 'CoordinationStartTime_Hour': 0, 'CoordinationStartTime_Minute': 1, 'CoordinationEndTime_Hour': 23, 'CoordinationEndTime_Minute': 55, 'CoordinationSplit': 20.0, 'CoordinatedPhase1': 2, 'CoordinatedPhase2': 6}
+
+[1696796370.9837] {"MsgType": "ActiveCoordinationPlan", "CycleLength": 100, "Offset": 48, "CoordinationStartTime_Hour": 0, "CoordinationStartTime_Minute": 1, "CoordinatedPhase1": 2, "CoordinatedPhase2": 6, "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "SplitData": [25, 37, 0, 38, 24, 38, 0, 38]}}
+
+[1696796370.9838] Sent Split data to PRSolver
+
+[1696796407.026] {"MsgType": "CoordinationRequest", "msgCount": 1, "noOfCoordinationRequest": 4, "minuteOfYear": 404420, "msOfMinute": 7000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 1, "basicVehicleRole": 11, "ETA": 1.0, "ETA_Minute": 404420.0, "ETA_Second": 8000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796407.0257654}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 2, "basicVehicleRole": 11, "ETA": 1.0, "ETA_Minute": 404420.0, "ETA_Second": 8000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796407.0257938}, {"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 101.0, "ETA_Minute": 404421.0, "ETA_Second": 48000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796407.0258162}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 101.0, "ETA_Minute": 404421.0, "ETA_Second": 48000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796407.0258365}]}}
+
+[1696796407.0261] Virtual Coorination Request is Sent to PRS
+
+[1696796408.0264] Received Coordination Plan Request from PRSolver
+
+[1696796408.0267] {"MsgType": "ActiveCoordinationPlan", "CycleLength": 100, "Offset": 48, "CoordinationStartTime_Hour": 0, "CoordinationStartTime_Minute": 1, "CoordinatedPhase1": 2, "CoordinatedPhase2": 6, "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "SplitData": [25, 37, 0, 38, 24, 38, 0, 38]}}
+
+[1696796408.0268] Sent Split data to PRSolver
+
+[1696796408.0272] {"MsgType": "CoordinationRequest", "msgCount": 2, "noOfCoordinationRequest": 4, "minuteOfYear": 404420, "msOfMinute": 8000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 1, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420.0, "ETA_Second": 8000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796408.0270038}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 2, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420.0, "ETA_Second": 8000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796408.0270326}, {"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 100.0, "ETA_Minute": 404421.0, "ETA_Second": 48000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796408.027057}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 100.0, "ETA_Minute": 404421.0, "ETA_Second": 48000.0, "CoordinationSplit": 20000, "priorityRequestType": 1, "requestUpdateTime": 1696796408.0270789}]}}
+
+[1696796408.0273] Virtual Coorination Request is Sent to PRS
+
+[1696796416.0376] {"MsgType": "CoordinationRequest", "msgCount": 3, "noOfCoordinationRequest": 4, "minuteOfYear": 404420, "msOfMinute": 16000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 1, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420, "ETA_Second": 16000, "CoordinationSplit": 11985, "priorityRequestType": 2, "requestUpdateTime": 1696796416.0373695}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 2, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420, "ETA_Second": 16000, "CoordinationSplit": 11986, "priorityRequestType": 2, "requestUpdateTime": 1696796416.0373986}, {"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 91.99091172218323, "ETA_Minute": 404421, "ETA_Second": 47990, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796416.0374267}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 91.99110341072083, "ETA_Minute": 404421, "ETA_Second": 47991, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796416.0374508}]}}
+
+[1696796416.0378] Sent updated Coordination Request to avoid PRS timed-out
+
+[1696796424.0484] {"MsgType": "CoordinationRequest", "msgCount": 4, "noOfCoordinationRequest": 4, "minuteOfYear": 404420, "msOfMinute": 24000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 1, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420, "ETA_Second": 24000, "CoordinationSplit": 3971, "priorityRequestType": 2, "requestUpdateTime": 1696796424.0481439}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 2, "basicVehicleRole": 11, "ETA": 0.0, "ETA_Minute": 404420, "ETA_Second": 24000, "CoordinationSplit": 3972, "priorityRequestType": 2, "requestUpdateTime": 1696796424.0481734}, {"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 83.98149061203003, "ETA_Minute": 404421, "ETA_Second": 47981, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796424.0481987}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 83.98192310333252, "ETA_Minute": 404421, "ETA_Second": 47981, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796424.0482228}]}}
+
+[1696796424.0485] Sent updated Coordination Request to avoid PRS timed-out
+
+[1696796428.0543] {"MsgType": "CoordinationRequest", "msgCount": 5, "noOfCoordinationRequest": 2, "minuteOfYear": 404420, "msOfMinute": 28000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 79.97620296478271, "ETA_Minute": 404421, "ETA_Second": 47976, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796428.0541942}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 79.97672176361084, "ETA_Minute": 404421, "ETA_Second": 47976, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796428.0541952}]}}
+
+[1696796428.0544] Sent coordination request list to PRS after deletion process
+
+[1696796436.0654] {"MsgType": "CoordinationRequest", "msgCount": 6, "noOfCoordinationRequest": 2, "minuteOfYear": 404420, "msOfMinute": 36000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 71.96605730056763, "ETA_Minute": 404421, "ETA_Second": 47966, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796436.065159}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 71.96681785583496, "ETA_Minute": 404421, "ETA_Second": 47966, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796436.0651941}]}}
+
+[1696796436.0656] Sent updated Coordination Request to avoid PRS timed-out
+
+[1696796444.0761] {"MsgType": "CoordinationRequest", "msgCount": 7, "noOfCoordinationRequest": 2, "minuteOfYear": 404420, "msOfMinute": 44000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 63.955952405929565, "ETA_Minute": 404421, "ETA_Second": 47955, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796444.0760458}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 63.95695614814758, "ETA_Minute": 404421, "ETA_Second": 47956, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796444.076065}]}}
+
+[1696796444.0763] Sent updated Coordination Request to avoid PRS timed-out
+
+[1696796452.0867] {"MsgType": "CoordinationRequest", "msgCount": 8, "noOfCoordinationRequest": 2, "minuteOfYear": 404420, "msOfMinute": 52000, "CoordinationRequestList": {"requestorInfo": [{"requestedPhase": 2, "vehicleType": 20, "vehicleID": 3, "basicVehicleRole": 11, "ETA": 55.9462149143219, "ETA_Minute": 404421, "ETA_Second": 47946, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796452.086538}, {"requestedPhase": 6, "vehicleType": 20, "vehicleID": 4, "basicVehicleRole": 11, "ETA": 55.94748330116272, "ETA_Minute": 404421, "ETA_Second": 47947, "CoordinationSplit": 20000, "priorityRequestType": 2, "requestUpdateTime": 1696796452.0865808}]}}
+
+[1696796452.0869] Sent updated Coordination Request to avoid PRS timed-out

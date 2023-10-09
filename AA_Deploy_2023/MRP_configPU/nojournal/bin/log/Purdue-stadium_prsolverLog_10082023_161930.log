@@ -1,0 +1,135 @@
+[1696796370.2785] [2023-10-08 20:19:30.278] Open PRSolver log file Purdue-stadium intersection
+
+[1696796370.9844] [2023-10-08 20:19:30.984] Received Split Data form SignalCoordinationRequestGenerator
+
+[1696796370.9844] [2023-10-08 20:19:30.984] {"MsgType": "ActiveCoordinationPlan", "CycleLength": 100, "Offset": 48, "CoordinationStartTime_Hour": 0, "CoordinationStartTime_Minute": 1, "CoordinatedPhase1": 2, "CoordinatedPhase2": 6, "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "SplitData": [25, 37, 0, 38, 24, 38, 0, 38]}}
+
+[1696796371.3061] [2023-10-08 20:19:31.306] Received Clear Request from PRS
+
+[1696796371.3061] [2023-10-08 20:19:31.306] Clear Request message will send to TCI
+
+[1696796371.3062] [2023-10-08 20:19:31.306] {"MsgType":"Schedule","Schedule":"Clear"}
+
+[1696796388.3299] [2023-10-08 20:19:48.329] Received Signal Timing Plan from TCI
+
+[1696796388.3300] [2023-10-08 20:19:48.329] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696796388.3313] [2023-10-08 20:19:48.331] Received Signal Timing Plan from TCI
+
+[1696796388.3313] [2023-10-08 20:19:48.331] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696796407.0291] [2023-10-08 20:20:07.29] Received Priority Request List from PRS
+
+[1696796407.0291] [2023-10-08 20:20:07.29] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":4,"regionalID":0,"requestorInfo":[{"ETA":1.0,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":1,"vehicleType":20},{"ETA":1.0,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":2,"vehicleType":20},{"ETA":100.99959707260132,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":100.99959707260132,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796408.0274] [2023-10-08 20:20:08.27] Received Split Data form SignalCoordinationRequestGenerator
+
+[1696796408.0274] [2023-10-08 20:20:08.27] {"MsgType": "ActiveCoordinationPlan", "CycleLength": 100, "Offset": 48, "CoordinationStartTime_Hour": 0, "CoordinationStartTime_Minute": 1, "CoordinatedPhase1": 2, "CoordinatedPhase2": 6, "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "SplitData": [25, 37, 0, 38, 24, 38, 0, 38]}}
+
+[1696796408.0687] [2023-10-08 20:20:08.68] Received Current Signal Status from TCI
+
+[1696796408.0688] [2023-10-08 20:20:08.68] {"currentPhases": [{"Phase": 4, "State": "green", "ElapsedTime": 248, "ElapsedTimeInGMax": 248, "RemainingGMax": 350, "PedState": "do_not_walk"}, {"Phase": 8, "State": "green", "ElapsedTime": 248, "ElapsedTimeInGMax": 248, "RemainingGMax": 350, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796408.0688] [2023-10-08 20:20:08.68] The elapsed time in a cycle is 0.000000
+
+[1696796408.1005] [2023-10-08 20:20:08.100] Time requires to Solve the optimization problem is 0.030684
+
+[1696796408.1042] [2023-10-08 20:20:08.104] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796408.1049] [2023-10-08 20:20:08.104] Received Priority Request List from PRS
+
+[1696796408.1050] [2023-10-08 20:20:08.104] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":4,"regionalID":0,"requestorInfo":[{"ETA":1.0,"ETA_Duration":19.998999999999999,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":1,"vehicleType":20},{"ETA":1.0,"ETA_Duration":19.998999999999999,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":2,"vehicleType":20},{"ETA":99.999168872833252,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":99.999168872833252,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796408.1687] [2023-10-08 20:20:08.168] Received Current Signal Status from TCI
+
+[1696796408.1688] [2023-10-08 20:20:08.168] {"currentPhases": [{"Phase": 4, "State": "green", "ElapsedTime": 249, "ElapsedTimeInGMax": 249, "RemainingGMax": 350, "PedState": "do_not_walk"}, {"Phase": 8, "State": "green", "ElapsedTime": 249, "ElapsedTimeInGMax": 249, "RemainingGMax": 350, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796408.1688] [2023-10-08 20:20:08.168] The elapsed time in a cycle is 0.000000
+
+[1696796408.1873] [2023-10-08 20:20:08.187] Time requires to Solve the optimization problem is 0.017568
+
+[1696796408.1909] [2023-10-08 20:20:08.190] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796416.0412] [2023-10-08 20:20:16.41] Received Priority Request List from PRS
+
+[1696796416.0413] [2023-10-08 20:20:16.41] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":4,"regionalID":0,"requestorInfo":[{"ETA":1.0,"ETA_Duration":11.984,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":1,"vehicleType":20},{"ETA":1.0,"ETA_Duration":11.984999999999999,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":2,"vehicleType":20},{"ETA":91.990352630615234,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":91.990544319152832,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796416.0677] [2023-10-08 20:20:16.67] Received Current Signal Status from TCI
+
+[1696796416.0678] [2023-10-08 20:20:16.67] {"currentPhases": [{"Phase": 4, "State": "green", "ElapsedTime": 328, "ElapsedTimeInGMax": 328, "RemainingGMax": 350, "PedState": "do_not_walk"}, {"Phase": 8, "State": "green", "ElapsedTime": 328, "ElapsedTimeInGMax": 328, "RemainingGMax": 350, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796416.0678] [2023-10-08 20:20:16.67] The elapsed time in a cycle is 8.000000
+
+[1696796416.0937] [2023-10-08 20:20:16.93] Time requires to Solve the optimization problem is 0.024822
+
+[1696796416.1235] [2023-10-08 20:20:16.123] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796424.0512] [2023-10-08 20:20:24.51] Received Priority Request List from PRS
+
+[1696796424.0512] [2023-10-08 20:20:24.51] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":4,"regionalID":0,"requestorInfo":[{"ETA":1.0,"ETA_Duration":3.9700000000000002,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":1,"vehicleType":20},{"ETA":1.0,"ETA_Duration":3.9710000000000001,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":2,"vehicleType":20},{"ETA":83.98106050491333,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":83.98149299621582,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796424.0682] [2023-10-08 20:20:24.68] Received Current Signal Status from TCI
+
+[1696796424.0682] [2023-10-08 20:20:24.68] {"currentPhases": [{"Phase": 1, "State": "green", "ElapsedTime": 8, "ElapsedTimeInGMax": 8, "RemainingGMax": 242, "PedState": "do_not_walk"}, {"Phase": 5, "State": "green", "ElapsedTime": 8, "ElapsedTimeInGMax": 8, "RemainingGMax": 242, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796424.0682] [2023-10-08 20:20:24.68] The elapsed time in a cycle is 16.000000
+
+[1696796424.0833] [2023-10-08 20:20:24.83] Time requires to Solve the optimization problem is 0.014300
+
+[1696796424.0861] [2023-10-08 20:20:24.86] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796428.0563] [2023-10-08 20:20:28.56] Received Priority Request List from PRS
+
+[1696796428.0563] [2023-10-08 20:20:28.56] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":2,"regionalID":0,"requestorInfo":[{"ETA":79.97590184211731,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":79.976420640945435,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796428.0679] [2023-10-08 20:20:28.67] Received Current Signal Status from TCI
+
+[1696796428.0679] [2023-10-08 20:20:28.67] {"currentPhases": [{"Phase": 1, "State": "green", "ElapsedTime": 48, "ElapsedTimeInGMax": 48, "RemainingGMax": 202, "PedState": "do_not_walk"}, {"Phase": 5, "State": "green", "ElapsedTime": 48, "ElapsedTimeInGMax": 48, "RemainingGMax": 202, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796428.0679] [2023-10-08 20:20:28.67] The elapsed time in a cycle is 20.000000
+
+[1696796428.0829] [2023-10-08 20:20:28.82] Time requires to Solve the optimization problem is 0.014274
+
+[1696796428.0856] [2023-10-08 20:20:28.85] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796436.0680] [2023-10-08 20:20:36.67] Received Priority Request List from PRS
+
+[1696796436.0680] [2023-10-08 20:20:36.68] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":2,"regionalID":0,"requestorInfo":[{"ETA":71.965636491775513,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":71.966397047042847,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796436.1683] [2023-10-08 20:20:36.168] Received Current Signal Status from TCI
+
+[1696796436.1684] [2023-10-08 20:20:36.168] {"currentPhases": [{"Phase": 1, "State": "green", "ElapsedTime": 129, "ElapsedTimeInGMax": 129, "RemainingGMax": 250, "PedState": "do_not_walk"}, {"Phase": 5, "State": "green", "ElapsedTime": 129, "ElapsedTimeInGMax": 129, "RemainingGMax": 250, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796436.1684] [2023-10-08 20:20:36.168] The elapsed time in a cycle is 28.000000
+
+[1696796436.1835] [2023-10-08 20:20:36.183] Time requires to Solve the optimization problem is 0.014276
+
+[1696796436.1869] [2023-10-08 20:20:36.186] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796444.0785] [2023-10-08 20:20:44.78] Received Priority Request List from PRS
+
+[1696796444.0785] [2023-10-08 20:20:44.78] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":2,"regionalID":0,"requestorInfo":[{"ETA":63.955569505691528,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":63.956573247909546,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796444.1685] [2023-10-08 20:20:44.168] Received Current Signal Status from TCI
+
+[1696796444.1685] [2023-10-08 20:20:44.168] {"currentPhases": [{"Phase": 1, "State": "green", "ElapsedTime": 209, "ElapsedTimeInGMax": 209, "RemainingGMax": 250, "PedState": "do_not_walk"}, {"Phase": 5, "State": "green", "ElapsedTime": 209, "ElapsedTimeInGMax": 209, "RemainingGMax": 250, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [0], "vehicleCalls": [1, 3, 4, 5, 7, 8], "totalVehicleCalls": 6, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796444.1685] [2023-10-08 20:20:44.168] The elapsed time in a cycle is 36.000000
+
+[1696796444.1828] [2023-10-08 20:20:44.182] Time requires to Solve the optimization problem is 0.013550
+
+[1696796444.1855] [2023-10-08 20:20:44.185] The schedule will not send to TCI since it doesn't pass validation process
+
+[1696796452.0893] [2023-10-08 20:20:52.89] Received Priority Request List from PRS
+
+[1696796452.0893] [2023-10-08 20:20:52.89] {"MsgType":"PriorityRequest","PriorityRequestList":{"intersectionID":31416,"noOfRequest":2,"regionalID":0,"requestorInfo":[{"ETA":55.945875883102417,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":2,"speed_MeterPerSecond":0.0,"vehicleID":3,"vehicleType":20},{"ETA":55.947144269943237,"ETA_Duration":20.0,"basicVehicleRole":11,"requestedSignalGroup":6,"speed_MeterPerSecond":0.0,"vehicleID":4,"vehicleType":20}]}}
+
+[1696796452.1689] [2023-10-08 20:20:52.168] Received Current Signal Status from TCI
+
+[1696796452.1690] [2023-10-08 20:20:52.168] {"currentPhases": [{"Phase": 1, "State": "yellow", "ElapsedTime": 39, "ElapsedTimeInGMax": null, "RemainingGMax": null, "PedState": "do_not_walk"}, {"Phase": 5, "State": "yellow", "ElapsedTime": 39, "ElapsedTimeInGMax": null, "RemainingGMax": null, "PedState": "do_not_walk"}], "MsgType": "CurrNextPhaseStatus", "nextPhases": [3, 7], "vehicleCalls": [], "totalVehicleCalls": 0, "pedestrianCalls": [], "totalPedestrianCalls": 0}
+
+[1696796452.1690] [2023-10-08 20:20:52.168] The elapsed time in a cycle is 44.000000
+
+[1696796452.1880] [2023-10-08 20:20:52.187] Time requires to Solve the optimization problem is 0.018104
+
+[1696796452.1913] [2023-10-08 20:20:52.191] The schedule will not send to TCI since it doesn't pass validation process

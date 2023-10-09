@@ -1,0 +1,31 @@
+[1696794510.0823] [2023-10-08 19:48:30.82] Open PRSolver log file Purdue-stadium intersection
+
+[1696794511.1139] [2023-10-08 19:48:31.113] Received Clear Request from PRS
+
+[1696794511.1140] [2023-10-08 19:48:31.113] Clear Request message will send to TCI
+
+[1696794511.1140] [2023-10-08 19:48:31.113] {"MsgType":"Schedule","Schedule":"Clear"}
+
+[1696794526.6480] [2023-10-08 19:48:46.648] Received Signal Timing Plan from TCI
+
+[1696794526.6481] [2023-10-08 19:48:46.648] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696794526.6493] [2023-10-08 19:48:46.649] Received Signal Timing Plan from TCI
+
+[1696794526.6493] [2023-10-08 19:48:46.649] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696795126.8397] [2023-10-08 19:58:46.839] Received Signal Timing Plan from TCI
+
+[1696795126.8397] [2023-10-08 19:58:46.839] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696795126.8407] [2023-10-08 19:58:46.840] Received Signal Timing Plan from TCI
+
+[1696795126.8407] [2023-10-08 19:58:46.840] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696795726.8206] [2023-10-08 20:08:46.820] Received Signal Timing Plan from TCI
+
+[1696795726.8206] [2023-10-08 20:08:46.820] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
+
+[1696795726.8218] [2023-10-08 20:08:46.821] Received Signal Timing Plan from TCI
+
+[1696795726.8218] [2023-10-08 20:08:46.821] {"MsgType": "ActiveTimingPlan", "TimingPlan": {"NoOfPhase": 8, "PhaseNumber": [1, 2, 3, 4, 5, 6, 7, 8], "PedWalk": [0, 7, 0, 7, 0, 7, 0, 7], "PedClear": [0, 8, 0, 8, 0, 8, 0, 8], "MinGreen": [5, 10, 5, 5, 5, 10, 5, 5], "Passage": [4.0, 5.0, 4.0, 5.0, 4.0, 5.0, 4.0, 5.0], "MaxGreen": [25, 35, 25, 35, 25, 35, 25, 35], "YellowChange": [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0], "RedClear": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "PhaseRing": [1, 1, 1, 1, 2, 2, 2, 2]}}
