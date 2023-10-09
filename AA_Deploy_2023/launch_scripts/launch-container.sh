@@ -25,7 +25,7 @@
 # This script launches the docker container after getting inputs from the user                                                                                               
 #############################################################################################
 
-read -p "Full absolute path of MMITSS configuration directory (with no trailing /): " -e config_path
+read -p "Full absolute path of MMITSS configuration directory (to ../nojournal without trailing /): " -e config_path
 read -p "Name of container image on the Dockerhub : " container_image
 read -p "Name of container: " container_name
 read -p "Specify timezone string: " timezone

@@ -1,3 +1,0 @@
-log_timestamp_verbose,log_timestamp_posix,timestamp_verbose,timestamp_posix,interval_sec,msg_source,msg_type,msg_count,msg_served,msg_rejected
-2023-05-03 12:14:20.945733,1683130460.945724,2023-05-03 16:14:20.940,1683130460.940961,300.0,mcity-main,SRM,0,0,0
-2023-05-03 12:19:20.983003,1683130760.982997,2023-05-03 16:19:20.972,1683130760.972874,300.0,mcity-main,SRM,0,0,0
