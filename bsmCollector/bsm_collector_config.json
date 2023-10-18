@@ -1,0 +1,12 @@
+{
+    "ip_address": "192.168.0.100",
+    "port_number": 30100,
+    "directory_path": "result",
+    "max_messages": 6000,
+    "message_identifiers": {
+        "BSM": "0014",
+        "SPaT": "0013",
+        "Map": "0012",
+        "SRM": "001d"
+    }
+}
