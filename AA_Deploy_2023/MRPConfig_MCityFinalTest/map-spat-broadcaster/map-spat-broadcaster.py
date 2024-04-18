@@ -37,13 +37,15 @@ import J2735Helper
 def main():
 
     # Read a config file by creating an object of the time MapSpatBroadcasterConfig
-    configFile = open("/nojournal/bin/mmitss-phase3-master-config.json", 'r')
+    configFile = open("../nojournal/bin/mmitss-phase3-master-config.json", 'r')
     config = (json.load(configFile))
 
     # Establish a socket and bind it to IP and port
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     mrpIp = config["HostIp"]
     MapSpatBroadcastAddress = (mrpIp, config["PortNumber"]["MapSPaTBroadcaster"])
+    # MapSpatBroadcastAddress = ("127.0.0.1", 6053)
+    print(MapSpatBroadcastAddress)
     s.bind(MapSpatBroadcastAddress)
     
     snmpEngineAddress = (mrpIp, config["PortNumber"]["SnmpEngine"])
@@ -62,7 +64,7 @@ def main():
         enableSpatJsonRequest = json.dumps({"MsgType": "SnmpSetRequest","OID": "1.3.6.1.4.1.1206.3.5.2.9.44.1.1","Value": 6})
         s.sendto(enableSpatJsonRequest.encode(),snmpEngineAddress)
         
-    clientsJson = json.load(open('/nojournal/bin/mmitss-data-external-clients.json','r'))
+    clientsJson = json.load(open('../nojournal/bin/mmitss-data-external-clients.json','r'))
     clients_spatBlob = clientsJson["spat"]["blob"]
     clients_spatJson = clientsJson["spat"]["json"]
 
@@ -120,7 +122,7 @@ def main():
             elif(internalMsg["MsgType"]=="ScheduleSpatClear"):
                 mmitssSpatObject.reset()
 
-        elif addr[0] == controllerIp:
+        elif addr[0] == "141.211.55.134":
             spatBlob = data
             if spatBroadcastSuccessFlag == False:
                 print("\nStarted receiving packets from the Signal Controller. MAP/SPAT Broadcast Set Successfully!")
