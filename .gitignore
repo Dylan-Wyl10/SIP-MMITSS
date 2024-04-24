@@ -5,7 +5,6 @@ AA_Deploy_2023/MRP_config/nojournal/bin/v2x-data
 AA_Deploy_2023/MRP_config/nojournal/bin/OptimizationModel.mod
 AA_Deploy_2023/MRP_config/nojournal/bin/OptimizationModelData.dat
 AA_Deploy_2023/MRP_config/nojournal/bin/OptimizationResults.txt
-/backups
 vsp_devIMG.tar
 
 AA_Deploy_2023/VSP_config/nojournal/bin/log
@@ -16,3 +15,5 @@ AA_Deploy_2023/MRPConfig_MCityFinalTest/nojournal/bin/v2x-data
 AA_Deploy_2023/MRPConfig_MCityFinalTest/nojournal/bin/OptimizationModel.mod
 AA_Deploy_2023/MRPConfig_MCityFinalTest/map-spat-broadcaster/__pycache__
 AA_Deploy_2023/MRPConfig_MCityFinalTest/nojournal/bin/MCity_Final_Ellsworth.map.payload
+
+Health_Monitoring/logs_test
