@@ -16,4 +16,7 @@ AA_Deploy_2023/MRPConfig_MCityFinalTest/nojournal/bin/OptimizationModel.mod
 AA_Deploy_2023/MRPConfig_MCityFinalTest/map-spat-broadcaster/__pycache__
 AA_Deploy_2023/MRPConfig_MCityFinalTest/nojournal/bin/MCity_Final_Ellsworth.map.payload
 
-Health_Monitoring/logs_test
+Health_Monitoring/logs_test/Ellsworth*
+
+Health_Monitoring/logs_test/test/Ellsworth_StoneSchool_spatLog_04052024_000000.csv
+

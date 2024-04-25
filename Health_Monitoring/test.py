@@ -42,31 +42,37 @@ dataframes = [load_and_sort_csv(path) for path in file_paths]
 print('yes')
 
 # The list of message types corresponding to the dataframes from index 1 to 4
-message_types = ['srm', 'spat', 'ssm', 'bsm']
+message_types = ['ssm', 'bsm', 'srm']  # 'spat' is removed
 
-# Initialize a dictionary to store message counts per hour
-message_counts_per_hour = {msg: [] for msg in message_types}
+# Initialize a dictionary to store message counts per 10 minutes
+message_counts_per_10min = {msg: [] for msg in message_types}
 
 # Iterate over the message types and corresponding dataframes
-for msg_type, df in zip(message_types, dataframes[1:]):  # Skip the first dataframe
-    # Ensure the timestamp is in datetime format (if not already done)
-    timestamp_col = df.columns[df.columns.str.contains('verbose')][0]  # Find the verbose timestamp column
+for msg_type, df in zip(message_types, [dataframes[2], dataframes[3], dataframes[4]]):
+    # Find the verbose timestamp column and convert to datetime if necessary
+    timestamp_col = df.columns[df.columns.str.contains('verbose')][0]
     df[timestamp_col] = pd.to_datetime(df[timestamp_col])
 
-    # Group by the hour and count the entries
-    hourly_counts = df.resample('H', on=timestamp_col).size()
-    message_counts_per_hour[msg_type] = hourly_counts
+    # Set the datetime column as the DataFrame index
+    df.set_index(timestamp_col, inplace=True)
+
+    # Ensure the index is now a DatetimeIndex
+    if not isinstance(df.index, pd.DatetimeIndex):
+        df.index = pd.to_datetime(df.index)
+
+    # Group by 10-minute intervals and count the entries
+    ten_minute_counts = df.resample('H').size()
+    message_counts_per_10min[msg_type] = ten_minute_counts
 
 # Combine the dataframes for plotting
-combined_df = pd.DataFrame(message_counts_per_hour)
+combined_df = pd.DataFrame(message_counts_per_10min)
 
 # Plotting
 combined_df.plot(kind='bar', width=0.8)
-plt.title('Hourly Distribution of Messages')
-plt.xlabel('Hour')
+plt.title('10-Minute Distribution of Messages (Excluding SPAT)')
+plt.xlabel('Time (10-minute intervals)')
 plt.ylabel('Number of Messages')
 plt.xticks(rotation=45)
 plt.legend(title='Message Type')
 plt.tight_layout()
 plt.show()
-print('yes')
