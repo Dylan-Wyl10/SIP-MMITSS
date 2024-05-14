@@ -87,6 +87,7 @@
 		"ssm": "CONT",
 		"bsm": "CONT"
 	},
+	"Signature": "True",
 	"SignalController": {
 		"IpAddress": "10.12.6.100",
 		"NtcipPort": 501,
