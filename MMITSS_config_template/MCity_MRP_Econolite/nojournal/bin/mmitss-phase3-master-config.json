@@ -1,14 +1,14 @@
 {
-	"HostIp": "10.224.71.17",
-	"SourceDsrcDeviceIp": "10.224.71.232",
-	"IntersectionName": "mcity-main",
-	"MapPayload": "001281d3380630203015b8194edb8b283966652d195602dc0514f8716008a0002014800258a787b792cebb3ffab61eee002c09f6148792004242a00020b0085000100400012c541bcf09675da002db0f61001604fb024190000c600c8800100800012c536bbd01675f1ffd5b0f34fff404fb16021a00020148006586e873316bffd3954013ec5801c76676c037bd8e813ec5811a7ba2148740001240c90008b014d000100400032c2a7b99bb5ffd5cb9409f66c03fbb18013ec580907adb2c09dbdad024290001460190800100800012c1e8b99f35ffd5cb3c09f66c0033bb2013ec580ea80008012000b600add9cc09f62bc25400335e6b200b009f604831200216042a00020100002d802b77de027d8af08b0022d79c2802c027d81207000085812a80008020000b600c1e52809f62bee3400595f4ddfd40121c8000e3014c40008040000960081ed29af30b001604fb15e312009c602d8800100800012c015be4235e62e008409f62bc64c00b16063a00020188002583637fb92c00e455915ffea12ac520d0000c90b440062c0d7400040080004b0968ff7e580278aa12bffac2030240c80004603a0800100800012c30cbfd69600862b38b00170822301f040008040000961d65fe9cb00431564d80008485028280",
-	"IntersectionID": 2780,
+	"HostIp": "35.0.1.7",
+	"SourceDsrcDeviceIp": "35.0.1.77",
+	"IntersectionName": "MCity_Final_Ellsworth",
+	"MapPayload":"001282103802302030014e094ed0a5d639633f49189802dc051f7059602220002014000457d417e7e2c02cba819600ddd490b00dedd72290b20004486400021603a200020080004d7bdf7e84027d9b006eea06050516002df184b01fefc20090940007180a8200040200009af48afcdc04fb3600b1d40c0a0a2c0163a92160135bae4b0085000100a00056c0e3436a013ecd8a8d801602829b1c1d00c6050a364b4202f00a146c2f6c01b814145800080002bfefc0058a4308000921300004580a280008020001b6078a158c09f66c53bc02101414d8e03804202851b25a10178050a36180e01b80a0a0485200028c05a900020100006d81e283d6027d9b155f006e050536375e02100a146c973405e01428d8619804d02828b0209000100a00046bd0cc589813ecd7fd489b7027d8b00170a42d809085cc027d8b00e90b3e57fea8c05148490004242a00020b00c9000100400046bdb84589813ecd7fdf89b2027d8aff9d0a4c57fce83992c0003ffd16001a00001216800063018c40008040001b5f42a2c2009f66bfe744e6813ecd7fb88ae1027d8affeb0b1e57fea8c482c063400040280009aebfb06a204fb35bef5ff5009f66b63fbfc3813ec562087f391485c0003242880018b004d000100400026baf3c25e813ecd6fd37f9d027d8af1baffd457a827eec0486200008c04b900020100006d75f28682027d9af546fecc04fb15b7ddfe49ae6d4ff0e04fb158955fd80",
+	"IntersectionID": 167,
 	"RegionalID": 0,
-	"DataCollectorIP": "141.211.144.12",
-	"HMIControllerIP": "10.12.7.3",
-	"MessageDistributorIP": "141.211.144.11",
-	"PriorityRequestGeneratorServerIP": "141.211.144.11",
+	"DataCollectorIP": "10.12.6.56",
+	"HMIControllerIP": "10.12.6.3",
+	"MessageDistributorIP": "10.12.6.20",
+	"PriorityRequestGeneratorServerIP": "10.12.6.20",
 	"VehicleType": "Transit",
 	"Logging": true,
 	"ConsoleOutput": true,
@@ -38,7 +38,7 @@
 		"TrafficControllerCurrPhaseListener": 20006,
 		"TrafficControllerTimingPlanSender": 20007,
 		"PerformanceObserver": 20008,
-		"HMIController": 20009,
+		"HMIController": 20109,
 		"PrioritySolverToTCIInterface": 20010,
 		"SignalCoordination": 20011,
 		"MapSPaTBroadcaster": 6053,
@@ -54,11 +54,11 @@
 		"PeerToPeerPriority": 20026
 	},
 	"psid": {
-		"map": "8001",
+		"map": "e0000017",
 		"spat": "8002",
 		"rsm": "8003",
-		"srm": "8002",
-		"ssm": "8005",
+		"srm": "8004",
+		"ssm": "e0000015",
 		"bsm": "20"
 	},
 	"msgId": {
@@ -72,21 +72,22 @@
 		"bsm": "0014"
 	},
 	"TxChannel": {
-		"map": 172,
-		"spat": 172,
-		"rsm": 172,
-		"srm": 172,
-		"ssm": 172,
-		"bsm": 172
+		"map": 183,
+		"spat": 183,
+		"rsm": 183,
+		"srm": 183,
+		"ssm": 183,
+		"bsm": 183
 	},
 	"TxMode": {
 		"map": "CONT",
 		"spat": "CONT",
 		"rsm": "CONT",
-		"srm": "ALT",
-		"ssm": "ALT",
+		"srm": "CONT",
+		"ssm": "CONT",
 		"bsm": "CONT"
 	},
+	"Signature": "True",
 	"SignalController": {
 		"IpAddress": "10.224.71.131",
 		"NtcipPort": 501,
@@ -110,8 +111,8 @@
 		}
 	},
 	"IntersectionReferencePoint": {
-		"Latitude_DecimalDegree": 42.30108559886392,
-		"Longitude_DecimalDegree": -83.69881136110419,
+		"Latitude_DecimalDegree": 42.22967904546809,
+		"Longitude_DecimalDegree": -83.71944224229627,
 		"Elevation_Meter": 239
 	},
 	"DataTransfer": {
