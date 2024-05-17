@@ -70,7 +70,8 @@ if __name__ == '__main__':
     send_address = ('192.168.0.101', 1517) # ip address for OBU
     v2m_address = ('192.168.0.102', 10005)  # v2m means the address from vsp device to mmitss.
     print('run')
-    fake_bsm_file = 'Ellsworth_StoneSchool_E2W.txt'
+    # fake_bsm_file = 'Ellsworth_StoneSchool_E2W.txt'
+    fake_bsm_file = 'pudemo_BSM.txt'
     f = open(fake_bsm_file)
     msg_set = []
     for i in f:

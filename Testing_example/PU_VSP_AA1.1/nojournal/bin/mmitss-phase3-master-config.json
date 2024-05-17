@@ -38,7 +38,7 @@
 		"TrafficControllerCurrPhaseListener": 20006,
 		"TrafficControllerTimingPlanSender": 20007,
 		"PerformanceObserver": 20008,
-		"HMIController": 20009,
+		"HMIController": 20109,
 		"PrioritySolverToTCIInterface": 20010,
 		"SignalCoordination": 20011,
 		"MapSPaTBroadcaster": 6053,
