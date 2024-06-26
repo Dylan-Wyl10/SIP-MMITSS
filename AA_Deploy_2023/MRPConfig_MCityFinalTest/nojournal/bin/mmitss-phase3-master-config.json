@@ -140,5 +140,17 @@
 		"TruckWeight": 1.0,
 		"DilemmaZoneRequestWeight": 20.0,
 		"CoordinationWeight": 0.1
+	},
+	"BusScheduleParameter":{
+	    "OnScheduleFlag": true,
+	    "EffectiveTime": {
+	        "Days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+                    ]
+        }
 	}
 }
