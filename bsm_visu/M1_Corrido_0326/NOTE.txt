@@ -1,0 +1,31 @@
+Data collection note
+
+Traj1:
+    - Name: 20250326-150755_20250326-151156_BSM.txt
+    - Description: start from warran_M1, end at Baltimal, to Pallis
+    - Note: Need to cut the rest few second bc it has passed Baltimal.
+    
+Traj2:
+    - Name: 1522follow_Baltimore2Warren.txt
+    - Description: Start from Baltimor, follow a Qline bus
+
+Traj3:
+    - Name: 1528-1535_S2N.txt
+    - Description: Strictly Follow A QLine Train
+    - Time index for each intersection: 10s (Warran Stop bar), +64s, +29s, +68s, +56s, +78s, +59s(Baltimal STOP BAR), +17s(to the end).
+
+Traj4:
+    - Name: 1548_1556_N2S.txt
+    - Description: Follow QLine Train from north to south
+    - Time index: 71.0s (Baltimore STOP SIGN), +123.1s, +29.2s, +25.2, +69.5, +47.8, +24.6 (Warran STOP), +16.2
+
+Traj5:
+    - Name: 1559_kirby_W2N.txt
+    - Description: Kirby&M1 west to north left turn.
+    - stop bar at 18s
+
+Traj6:
+    - Name: 1604_kirby_E2W.txt
+    - Description: Kirby&M1 east to west through
+    - stop bar at 52s
+
