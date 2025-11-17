@@ -1,0 +1,92 @@
+{
+    "IntersectionName": "speedway-mountain",
+    "CoordinationPattern": [
+        {
+            "CoordinationPlanName": "AM-Plan",
+            "CoordinationPatternNo": 1,
+            "CycleLength": 100,
+            "Offset": 48,
+            "CoordinatedPhase1": 2,
+            "CoordinatedPhase2": 6,
+            "CoordinationSplit": 20.0,
+            "Split": [
+                25,
+                37,
+                0,
+                38,
+                24,
+                38,
+                0,
+                38
+            ]
+        },
+        {
+            "CoordinationPlanName": "PM-Plan",
+            "CoordinationPatternNo": 2,
+            "CycleLength": 100,
+            "Offset": 48,
+            "CoordinatedPhase1": 2,
+            "CoordinatedPhase2": 6,
+            "CoordinationSplit": 20.0,
+            "Split": [
+                25,
+                37,
+                0,
+                38,
+                24,
+                38,
+                0,
+                38
+            ]
+        }
+    ],
+    "CoordinationDayPlan": [
+        {
+            "Days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "ActionPlan": [
+                {
+                    "CoordinationPatternNo": 1,
+                    "CoordinationStartTime_Hour": 0,
+                    "CoordinationStartTime_Minute": 1,
+                    "CoordinationEndTime_Hour": 23,
+                    "CoordinationEndTime_Minute": 55
+                },
+                {
+                    "CoordinationPatternNo": 2,
+                    "CoordinationStartTime_Hour": 23,
+                    "CoordinationStartTime_Minute": 56,
+                    "CoordinationEndTime_Hour": 23,
+                    "CoordinationEndTime_Minute": 59
+                }
+            ]
+        },
+        {
+            "Days": [
+                "Saturday",
+                "Sunday"
+            ],
+            "ActionPlan": [
+                {
+                    "CoordinationPatternNo": 1,
+                    "CoordinationStartTime_Hour": 0,
+                    "CoordinationStartTime_Minute": 1,
+                    "CoordinationEndTime_Hour": 23,
+                    "CoordinationEndTime_Minute": 55
+                },
+                {
+                    "CoordinationPatternNo": 2,
+                    "CoordinationStartTime_Hour": 23,
+                    "CoordinationStartTime_Minute": 56,
+                    "CoordinationEndTime_Hour": 23,
+                    "CoordinationEndTime_Minute": 59
+                }
+            ]
+        }
+    ]
+}
