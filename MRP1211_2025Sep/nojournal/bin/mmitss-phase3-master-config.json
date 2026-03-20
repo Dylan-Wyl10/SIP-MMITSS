@@ -152,5 +152,23 @@
                 "Friday"
                     ]
         }
-        }
+        },
+    	"VehicleClassConfig": {
+		"Transit": {
+		    "VehicleType": 6,
+		    "ClassType": 7,
+		    "ETADuration": 4
+		},
+		"Truck": {
+		    "VehicleType": 9,
+		    "ClassType": 10,
+		    "ETADuration": 8
+		},
+		"EmergencyVehicle": {
+		    "VehicleType": 2,
+		    "ClassType": 5,
+		    "ETADuration": 2
+		}
+    	}
+        
 }
