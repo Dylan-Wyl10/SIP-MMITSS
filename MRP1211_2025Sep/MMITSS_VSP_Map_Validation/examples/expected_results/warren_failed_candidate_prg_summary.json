@@ -1,0 +1,19 @@
+{
+  "result": "MAP_AVAILABLE_BUT_INACTIVE",
+  "status_count": 377,
+  "map_observed": true,
+  "active_map_observed": false,
+  "onmap_true_observed": false,
+  "latest_lane_id": 0,
+  "latest_signal_group": 0,
+  "request_sent_true_observed": false,
+  "srm_evidence_found": false,
+  "latest_available_maps": [
+    {
+      "DescriptiveName": "Map19",
+      "IntersectionID": 19,
+      "active": "False",
+      "age": 2.0
+    }
+  ]
+}
